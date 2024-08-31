@@ -25,3 +25,12 @@ var second = 5;
 var modulo = first%second;
 console.log (modulo);
 
+// task 4
+
+const a = isNaN("11");
+console.log (a);
+// output is false because 11 is not a number
+
+const b = isNaN(2-10);
+console.log(b);
+// output is false because -8 is not a number
